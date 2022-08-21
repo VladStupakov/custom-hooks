@@ -1,7 +1,12 @@
 import './App.css';
+import UseClickOutsideComponent from './components/UseClickOutsideComponent';
+import UseCookieComponent from './components/UseCookieComponent';
+import UseDarkModeComponent from './components/UseDarkModeComponent';
 import UseDebounceComponent from './components/UseDebounceComponent';
 import UseEventListenerComponent from './components/UseEventListenerComponent';
+import UseHoverComponent from './components/UseHoverComponent';
 import UseObserverComponent from './components/UseObserverComponent';
+import UseOnlineStatusComponent from './components/UseOnlineStatusComponent';
 import UsePreviousComponent from './components/UsePreviousComponent';
 import UseStateWithHistoryComponent from './components/UseStateWithHistoryComponent';
 import UseStorageComponent from './components/UseStorageComponent';
@@ -23,7 +28,12 @@ function App() {
       {/* <UseStorageComponent/> */}
       {/* <UseEventListenerComponent/> */}
       {/* <UseObserverComponent/> */}
-      <UseWindowSizeComponent/>
+      {/* <UseWindowSizeComponent/> */}
+      {/* <UseClickOutsideComponent/> */}
+      {/* <UseDarkModeComponent/> */}
+      {/* <UseCookieComponent/> */}
+      {/* <UseOnlineStatusComponent/> */}
+      <UseHoverComponent/>
     </div>
   );
 }
